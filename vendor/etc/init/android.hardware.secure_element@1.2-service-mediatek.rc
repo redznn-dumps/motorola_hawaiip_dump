@@ -1,0 +1,10 @@
+on boot && property:ro.boot.software.sku=RF2
+    start mtk_secure_element_hal_service
+on boot && property:ro.boot.software.sku=RF3
+    start mtk_secure_element_hal_service
+
+service mtk_secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+    class hal
+    user secure_element
+    group secure_element
+    disabled

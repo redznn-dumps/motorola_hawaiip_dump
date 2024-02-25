@@ -1,0 +1,10 @@
+on boot && property:ro.boot.software.sku=RF2
+    start nfc_hal_service
+on boot && property:ro.boot.software.sku=RF3
+    start nfc_hal_service
+
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.sec
+    class hal
+    user nfc
+    group nfc
+    disabled
