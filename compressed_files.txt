@@ -1,0 +1,4 @@
+product/app/WebViewGoogle/WebViewGoogle.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+system/system/system_ext/apex/com.android.vndk.v30.apex.xz

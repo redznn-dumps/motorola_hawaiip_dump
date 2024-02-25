@@ -1,0 +1,14 @@
+# sys_mssi_64_cn-user 12 STAS32.79-77-28-50-9 77-28-50-9 release-keys
+- manufacturer: motorola
+- platform: mt6765
+- codename: hawaiip
+- flavor: sys_mssi_64_cn-user
+- release: 12
+- id: STAS32.79-77-28-50-9
+- incremental: 77-28-50-9
+- tags: release-keys
+- fingerprint: motorola/hawaiip_g/hawaiip:12/STAS32.79-77-28-50-9/77-28-50-9:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: sys_mssi_64_cn-user-12-STAS32.79-77-28-50-9-77-28-50-9-release-keys
+- repo: motorola_hawaiip_dump
